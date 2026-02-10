@@ -19,16 +19,16 @@ Only one file per normalized name and extension is kept.
 
 1. Open a terminal in the project folder.
 
-2. (Optional) Do a dry run to see what would be deleted:
+2. (RECOMMENDED) Do a dry run to see what would be deleted:
 
    ```bash
-   python update.py /path/to/folder --dry-run
+   python3 nodupe_files.py /path/to/folder --dry-run
    ```
 
 3. Run for real to delete duplicates:
 
    ```bash
-   python update.py /path/to/folder
+   python3 nodupe_files.py /path/to/folder
    ```
 
 ## Notes
